@@ -25,24 +25,34 @@
     display: block;
     margin-right: auto;
     margin-left: auto;
-    width: 400px;
+    width: 500px;
 }
 
 #button-box {
+    /*display: flex;*/
     display: block;
-    padding-right: 50px;
-    padding-left: 50px;
-    margin-right: auto;
-    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 #left-button {
-    display: inline-block;
-    margin-left: 25px; 
+    border: 4px;
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
 }
 
 #right-button {
-    display: inline-block;
-    margin-right: 25px;
-
+    border: 4px;
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
 }
+
