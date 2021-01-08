@@ -13,6 +13,19 @@
     width: 272;
     height: 92;
 }
+
+p {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding-top: 0px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 350px;
+    font-size: small;
+}
+
 #form-box {
     padding-top: 25px;
 }
@@ -29,10 +42,10 @@
 }
 
 #button-box {
-    /*display: flex;*/
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 350px;
     
 }
 
@@ -42,7 +55,7 @@
     margin: 11px 4px;
     padding: 0px 16px;
     height: 36px;
-    min-width: 54px;
+    min-width: 140px;
     cursor: pointer;
 }
 
@@ -52,7 +65,12 @@
     margin: 11px 4px;
     padding: 0px 16px;
     height: 36px;
-    min-width: 54px;
+    min-width: 140px;
     cursor: pointer;
+}
+
+#footer {
+    display: block;
+    border: 10px;
 }
 
