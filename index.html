@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Google Homepage Clone</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <!--
 <body id="">
@@ -26,12 +27,16 @@
     <img id="logo" alt="The Google Logo" src="google-logo.png">
 -->
 <body>
-    <img id="logo" alt="The Google Logo" src="google-logo.png">
-    <label></label>
-    <input type="text" id="searchbar" name="searchbar">
-    <input type="button" name="search-button" value="Pesquisa Google">
-    <input type="button" name="lucky-button" value="Estou com Sorte">
-
+    <img id="logo" class ="center" alt="The Google Logo" src="google-logo.png">
+    <div id="form-box">
+        <div id="searchbar-box">
+            <input type="text" id="searchbar" name="searchbar">
+        </div>
+        <div id="button-box">
+            <input type="button" id="left-button" name="search-button" value="Pesquisa Google">
+            <input type="button" id="right-button" name="lucky-button" value="Estou com Sorte">
+        </div>
+    </div>
     <footer>
         Disponibilizado pelo Google em: <a href="#">English</a>
     </footer>

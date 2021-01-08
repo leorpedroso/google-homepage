@@ -1,0 +1,48 @@
+.center {
+    /*display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    */
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 109px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 272;
+    height: 92;
+}
+#form-box {
+    padding-top: 25px;
+}
+
+#searchbar-box {
+    padding-bottom: 25px;
+}
+
+#searchbar {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+}
+
+#button-box {
+    display: block;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#left-button {
+    display: inline-block;
+    margin-left: 25px; 
+}
+
+#right-button {
+    display: inline-block;
+    margin-right: 25px;
+
+}
