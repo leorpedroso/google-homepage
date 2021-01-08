@@ -39,6 +39,27 @@ p {
     margin-right: auto;
     margin-left: auto;
     width: 500px;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    border-top-color: rgb(223, 225, 229);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(223, 225, 229);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(223, 225, 229);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(223, 225, 229);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-radius: 24px;
+
 }
 
 #button-box {
