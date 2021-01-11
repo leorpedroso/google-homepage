@@ -1,13 +1,40 @@
+#container {
+    height: 100%;
+    border-collapse: collapse;
+    display: table;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.head {
+    position: absolute;
+    right: 0px;
+    width: 120px;
+    height: 30px;
+    padding: 25px 30px;
+}
+
+.link-header {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+}
+
+.link-header:hover {
+    text-decoration: underline;
+}
+
+#imagens {
+    padding-left: 10px;
+}
+
 .center {
-    /*display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    */
     display: block;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 109px;
+    padding-top: 209px;
     padding-left: 40px;
     padding-right: 40px;
     width: 272;
@@ -44,23 +71,6 @@ p {
     width: 500px;
     height: 44px;
     border: 1px solid #dfe1e5;
-    border-top-color: rgb(223, 225, 229);
-    border-top-style: solid;
-    border-top-width: 1px;
-    border-right-color: rgb(223, 225, 229);
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-bottom-color: rgb(223, 225, 229);
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-left-color: rgb(223, 225, 229);
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-image-outset: 0;
-    border-image-repeat: stretch;
-    border-image-slice: 100%;
-    border-image-source: none;
-    border-image-width: 1;
     border-radius: 24px;
 }
 
@@ -80,30 +90,6 @@ p {
     height: 36px;
     min-width: 140px;
     cursor: pointer;
-}
-
-/*
-.footer {
-    display: flex;
-    flex-direction: column;
-    height: 100px;
-}
-
-.child {
-    height: 40px;
-    width: 100%;
-    background: lightgray;
-    margin-top: auto;
-}
-*/
-#container {
-    height: 100%;
-    border-collapse: collapse;
-    display: table;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    
 }
 
 .foot {
@@ -130,15 +116,11 @@ p {
 }
 
 .bottom-footer-1 {
-    /*display: flex;
-    justify-content: center;*/
     margin-right: 30px;
     float:right;
 }
 
 .bottom-footer-2 {
-    /*display: flex;
-    justify-content: center;*/
     margin-left: 30px;
     float: left;
 }
